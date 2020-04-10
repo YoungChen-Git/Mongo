@@ -6134,11 +6134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/young/Projects/testMangoDb/testMangoDb/testMangoDb.csproj",
+      "projectUniqueName": "/Users/young/Projects/testMongo/Mongo/testMangoDb/testMangoDb.csproj",
       "projectName": "testMangoDb",
-      "projectPath": "/Users/young/Projects/testMangoDb/testMangoDb/testMangoDb.csproj",
+      "projectPath": "/Users/young/Projects/testMongo/Mongo/testMangoDb/testMangoDb.csproj",
       "packagesPath": "/Users/young/.nuget/packages/",
-      "outputPath": "/Users/young/Projects/testMangoDb/testMangoDb/obj/",
+      "outputPath": "/Users/young/Projects/testMongo/Mongo/testMangoDb/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
