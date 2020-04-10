@@ -37,7 +37,9 @@ namespace testMangoDb.Controllers
             });
             var testFileCollection = database.GetCollection<testFile>("testFile");//連接資料表
             testFileCollection.InsertOneAsync(temp);//Insert
-            return View();
+            Dictionary<string, string> jsonResult = new Dictionary<string, string>();
+            jsonResult.Add("result", "OK");
+            return Json(jsonResult);
         }
         [HttpGet("InsertBatch")]
         public IActionResult InsertBatch()
@@ -61,7 +63,9 @@ namespace testMangoDb.Controllers
             var database = client.GetDatabase("testMangoDB");
             var testFileCollection = database.GetCollection<testFile>("testFile");//連接資料表
             testFileCollection.InsertManyAsync(testFiles);//Insert
-            return View();
+            Dictionary<string, string> jsonResult = new Dictionary<string, string>();
+            jsonResult.Add("result", "OK");
+            return Json(jsonResult);
         }
         [HttpGet("Select")]
         public IActionResult Select()
@@ -71,7 +75,9 @@ namespace testMangoDb.Controllers
             var testFileCollection = database.GetCollection<testFile>("testFile");//連接資料表
             List<testFile> testFiles = testFileCollection.AsQueryable().ToList();
 
-            return View();
+            Dictionary<string, string> jsonResult = new Dictionary<string, string>();
+            jsonResult.Add("result", "OK");
+            return Json(jsonResult);
         }
         [HttpGet("Update")]
         public IActionResult Update()
@@ -83,7 +89,9 @@ namespace testMangoDb.Controllers
             testFile testFile = testFileCollection.Find(filter).FirstOrDefault();
             testFile.userAccount = "YoungUpdate";
             ReplaceOneResult result = testFileCollection.ReplaceOne(filter,testFile);
-            return View();
+            Dictionary<string, string> jsonResult = new Dictionary<string, string>();
+            jsonResult.Add("result", "OK");
+            return Json(jsonResult);
         }
         [HttpGet("Delete")]
         public IActionResult Delete()
@@ -93,7 +101,9 @@ namespace testMangoDb.Controllers
             var testFileCollection = database.GetCollection<testFile>("testFile");//連接資料表
             var filter = Builders<testFile>.Filter.Eq(x => x.userAccount, "YoungUpdate");//查詢條件
             DeleteResult result = testFileCollection.DeleteOne(filter);
-            return View();
+            Dictionary<string, string> jsonResult = new Dictionary<string, string>();
+            jsonResult.Add("result", "OK");
+            return Json(jsonResult);
         }
     }
 }
