@@ -20,7 +20,7 @@
     "testMangoDb": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "Sample/Index",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

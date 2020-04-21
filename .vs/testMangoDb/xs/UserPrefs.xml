@@ -1,11 +1,51 @@
 ﻿<Properties StartupConfiguration="{83DD788A-D8DC-4F05-AE06-011685F835D0}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="testMangoDb/Views/Sample/Index.cshtml">
+    <Files>
+      <File FileName="testMangoDb/Controllers/SampleController.cs" Line="25" Column="27" />
+      <File FileName="testMangoDb/Controllers/ProfileController.cs" />
+      <File FileName="testMangoDb/Startup.cs" />
+      <File FileName="testMangoDb/AppCode/Website.cs" />
+      <File FileName="testMangoDb/appsettings.json" />
+      <File FileName="testMangoDb/Program.cs" />
+      <File FileName="testMangoDb/wwwroot/css/main.css" Line="40" Column="1" />
+      <File FileName="testMangoDb/Views/Shared/_Layout.cshtml" Line="26" Column="1" />
+      <File FileName="testMangoDb/wwwroot/css/PhotoCarousel.css" Line="23" Column="2" />
+      <File FileName="testMangoDb/wwwroot/js/PhotoCarousel.js" Line="19" Column="19" />
+      <File FileName="testMangoDb/Views/Sample/Index.cshtml" Line="7" Column="1" />
+      <File FileName="testMangoDb/Views/Sample/Photo.cshtml" Line="7" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="testMangoDb" expanded="True">
             <Node name="testMangoDb" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="AppCode" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Sample" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="css" expanded="True">
+                      <Node name="bootstrap.css" expanded="True" />
+                    </Node>
+                    <Node name="js" expanded="True">
+                      <Node name="bootstrap.js" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

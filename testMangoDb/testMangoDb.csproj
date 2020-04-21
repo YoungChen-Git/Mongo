@@ -10,9 +10,29 @@
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver.Core" Version="2.10.3" />
     <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
+    <PackageReference Include="bootstrap" Version="4.4.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="AppCode\" />
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\fonts\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="Views\Sample\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\images\Photo\" />
+    <Folder Include="wwwroot\images\Carousel_Button\" />
+    <Folder Include="wwwroot\images\Navbar\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap-datetimepicker.css" />
+    <Content Remove="wwwroot\css\bootstrap-modal-carousel.min.css" />
+    <Content Remove="wwwroot\css\bootstrap-theme.min.css" />
   </ItemGroup>
 </Project>

@@ -26,6 +26,7 @@
         "dependencies": {
           "MongoDB.Driver": "2.10.3",
           "MongoDB.Driver.Core": "2.10.3",
+          "bootstrap": "4.4.1",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -316,6 +317,12 @@
           "testMangoDb.dll": {}
         }
       },
+      "bootstrap/4.4.1": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.16.0"
+        }
+      },
       "DnsClient/1.3.1": {
         "runtime": {
           "lib/netstandard2.1/DnsClient.dll": {
@@ -327,6 +334,7 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
+      "jQuery/3.0.0": {},
       "Microsoft.NETCore.Platforms/2.1.2": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -473,6 +481,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "popper.js/1.16.0": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -3062,12 +3071,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "bootstrap/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/QO9//Z8IYv8VmxTS3VzLaQC3wYnJDNbACnZHgLEeMABYjNuVPToLa6VDP2S4KwU3gUFiXglhQYZ00cddSK0IQ==",
+      "path": "bootstrap/4.4.1",
+      "hashPath": "bootstrap.4.4.1.nupkg.sha512"
+    },
     "DnsClient/1.3.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
       "path": "dnsclient/1.3.1",
       "hashPath": "dnsclient.1.3.1.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
       "type": "package",
@@ -3131,6 +3154,13 @@
       "sha512": "sha512-WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
+    },
+    "popper.js/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZJhaIouJ7dztoRoqj+KA1ADGpEIr+MzCWOkKm/Q6tu3CAauSsc+ZzXsxsD6RClRwieacqE3QNYNpaLU/mkVnWg==",
+      "path": "popper.js/1.16.0",
+      "hashPath": "popper.js.1.16.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

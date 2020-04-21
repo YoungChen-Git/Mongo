@@ -1,0 +1,42 @@
+﻿header
+{
+    height: 60px;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+    header a.logo
+    {
+        vertical-align: middle;
+    }
+        header a.logo img
+        {
+            height:250px;
+        }
+.page-wrap
+{
+    min-height:calc(100vh - 45px);
+    padding-top:90px;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: #555;
+    padding: 15px 0;
+    height: 45px;
+}
+.copyright
+{
+    color: #000;
+    opacity: 0.5;
+    font-size: 1.3rem;
+}
+.flex-nav
+{
+    display: flex;/*將導覽列拍列成水平*/
+    justify-content: space-around;/*將導覽列平均分散*/
+
+}
+

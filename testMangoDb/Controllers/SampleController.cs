@@ -14,6 +14,17 @@ namespace testMangoDb.Controllers
     [Route("[controller]")]
     public class SampleController : Controller
     {
+        [HttpGet("Index")]
+        public IActionResult Index()
+        {
+            return View();
+        }
+        [HttpGet("Photo")]
+        public IActionResult Photo()
+        {
+            return View();
+        }
+
         // GET: /<controller>/
         [HttpGet("Insert")]
         public IActionResult Insert()
@@ -21,7 +32,7 @@ namespace testMangoDb.Controllers
             var client = new MongoClient(Website.Instance.Configuration["MangoDB"]);//連結db語法
             var database = client.GetDatabase("testMangoDB");
             testFile temp = new testFile();
-            temp.userName = "Young";
+            temp.userName = "Young2";
             temp.userPassword = "password";
             temp.userAccount = "YoungChen";
             temp.wishList = new List<wish>();

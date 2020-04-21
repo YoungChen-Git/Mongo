@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <script src="@Url.Content("~/lib/jquery/jquery-3.5.0.min.js")"></script>
+    <script src="@Url.Content("~/lib/bootstrap/js/bootstrap.min.js")"></script>
+
+    <link rel="stylesheet" href="@Url.Content("~/lib/bootstrap/css/bootstrap.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/main.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/PhotoCarousel.css")">
+</head>
+<body>
+    <header>
+        <a class="logo" href="~/Sample/Index">
+            <img src="~/images/logo-removebg-preview.svg" alt="">
+        </a>
+        <nav>
+                <ul class="menu flex-nav">
+                <li class="dropdown"><a class="navitem" href="~/"><img src="~/images/Navbar/navbar1.svg" alt="關於yo"></a></li>
+                <li class="dropdown"><a class="navitem" href="~/Sample/Photo"><img src="~/images/Navbar/navbar2.svg" alt="想樂子"></a></li>
+                <li class="dropdown"><a class="navitem" href="~/"><img src="~/images/Navbar/navbar3.svg" alt="饗樂食"></a></li>
+                </ul>
+            </nav>
+
+        
+    </header>
+    <div class="page-wrap member-wrap" id="divLayout1">
+        <div class="container" id="divLayout2">
+            <div class="row">
+                <div class="col-md-12">
+                    @RenderBody()
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-pull-6">
+                    <div class="copyright">COPYRIGHT © 2020 Young All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="@Url.Content("~/js/PhotoCarousel.js")"></script>
+<script>var setting = {
+        width: 1000,
+        height: 270,
+        postWidth: 658,
+        postHeight: 270,
+        scale: 0.8,
+        speed: 500,
+        verticalAlign: "center"
+    }
+    $(".carousel").attr("data-setting", '{ "width":900,"height":411,"postWidth":658}')
+    Carousel.init($(".carousel"))</script>
