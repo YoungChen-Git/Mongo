@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver.Core" Version="2.10.3" />
-    <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
     <PackageReference Include="bootstrap" Version="4.4.1" />
   </ItemGroup>
   <ItemGroup>
